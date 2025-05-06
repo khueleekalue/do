@@ -1,0 +1,135 @@
+
+.container{
+font-family:Castellar;
+color: 006600;
+font-size:14px;
+}
+.text-light{Time New Roman;}
+#header {
+  height: 72px;
+  padding: 15px 0;
+  background: #000;
+}
+#header .logo h1 a, #header .logo h1 a:hover {
+font-family:Saysettha Unicode;
+  color: #ff3300;
+  text-decoration: none;
+}
+.nav-menu > ul > li {
+  float: left;
+  list-style: none;
+}
+.nav-menu a {
+  display: block;
+  position: relative;
+  color: rgba(255, 255, 255, 0.8);
+  padding: 8px 0 12px 0;
+  transition: 0.3s;
+  font-size: 14px;
+  font-family:phetsarath ot;
+}
+
+.nav-menu > ul > li + li {
+  margin-left: 30px;
+}
+
+.nav-menu > ul > li > a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 3px;
+  left: 0;
+  background-color: #FF6600;
+  width: 0px;
+}
+
+.nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
+  visibility: visible;
+  width: 100%;
+}
+
+.nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
+  color: #fff;
+}
+.mobile-nav-toggle {
+  position: fixed;
+  right: 15px;
+  top: 20px;
+  z-index: 9998;
+  border: 0;
+  background: none;
+  font-size: 20px;
+}
+.mobile-nav-toggle i {
+  color: #FF3300;
+}
+.mobile-nav {
+font-family:phetsarath ot;
+  position: fixed;
+  top: 50px;
+  right: 15px;
+  bottom: 10px;
+  left: 15px;
+ z-index: 9999;
+  background: #fff;
+  visibility: hidden;
+  border-radius: 10px;
+}
+
+.mobile-nav * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.mobile-nav a {
+  display: block;
+  color: #ff3399;
+  padding: 15px 20px;
+}
+
+.mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
+  color: #1bac91;
+  text-decoration: none;
+}
+.mobile-nav-active {
+  overflow: hidden;
+}
+
+.mobile-nav-active .mobile-nav {
+  opacity: 1;
+  visibility: visible;
+}
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#hero h2 {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 35px;
+  font-size: 24px;
+}
+
+#hero .btn-get-started {
+ 
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 4px;
+  transition: 0.5s;
+  border: 2px solid #fff;
+  color: #fff;
+}
+section {
+  padding: 30px 0;
+  overflow: hidden;
+}
+
